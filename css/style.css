@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	overflow-x: hidden;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#myPic {
+	width:100%;
+	height:auto;
+	border-radius: 25px;
+	float:left;
+	margin:0px;
+	padding:10px;
+}
+
+section.middle {
+	display: flex;
+	border-top:black;
+	width:100vw;
+}
+
+div.bottom {
+	width: 100vw;
+	height: 700px;
+	border-top: black solid;
+	background-image: url(cones.jpg);
+	background-size: cover;
+ 	background-position: center; /* Center the image */
+ 	background-repeat: no-repeat; /* Do not repeat the image */
+ 	position:relative;
+}
+
+.twoColumn {
+	float:left;
+}
+div.twoColumn1 {
+	width:33%;
+	height:auto;
+	background-color:linen;
+}
+div.twoColumn2 {
+	width:67%;
+	background-color:linen;
+}
+
+#share1 {
+	height:70%;
+}
+
+#share2 {
+	height: 30%;
+}
+
+#share1 > p {
+	text-align: center;
+	padding: 70px 0;
+}
+
+[class*="material-icons"], [class*="fa fa-linkedin-square"]{
+    display: inline-block;
+    width: 100%;
+}
+i {
+	text-align:center;
+}
+
+div > h3 {
+	text-align: center;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	border-style: dotted;
+  	border-color: white;
+  	
+  	padding:10px;
+  	font-size: 48px;
+  	/*font: "GeosansLightRegular Arial";*/
+
+  	/*'Avenir Heavy'*/
+
+  	font-family: "Fredericka the Great", cursive, Copperplate, Papyrus, fantasy;
+  	/*font-variant: small-caps;*/
+}
+
+div.top-image {
+	width: 100vw;
+	background-image: url("mount.jpg");
+  	background-color: #cccccc; /* Used if the image is unavailable */
+ 	height: 700px; /* You must set a specified height */
+ 
+ 	background-size: cover;
+ 	background-position: center; /* Center the image */
+ 	background-repeat: no-repeat; /* Do not repeat the image */
+ 	position:relative;
+
+}
+
+ul {
+	list-style-type: none;
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #333333;
+}
+
+header li {
+	float: left;
+	color: white;
+	border: white solid;
+	font-family: "Fredericka the Great", cursive, Copperplate, Papyrus, fantasy
+	/*font-variant: small-caps;
+	text-transform: uppercase;*/
+}
+
+p {
+	text-align: center;
+	margin:0px;
+	font-family: "Fredericka the Great", Arial;
+	font-size: 20px;
+}
+
+footer {
+	background-color: black;
+	width: 100vw;
+	color: white;
+	font-size: 10px;
+}
